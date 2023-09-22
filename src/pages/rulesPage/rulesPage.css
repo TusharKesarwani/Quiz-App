@@ -1,0 +1,47 @@
+.Rules-Page {
+	background-color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}
+
+.Rules-Page .container {
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 0px 5px black;
+}
+
+.Rules-Page .container .rules-header {
+	padding: 10px;
+}
+
+.Rules-Page .container .rules-main {
+	padding: 10px 15px 10px 15px;
+	border: solid black;
+	border-width: 1px 0px;
+}
+
+.Rules-Page .container .rules-main {
+	font-size: large;
+}
+
+.Rules-Page .container .rules-footer {
+	margin: 25px 0px 15px 0px;
+}
+
+.Rules-Page .container .rules-footer a {
+	all: unset;
+	padding: 10px 15px;
+	font-size: larger;
+	background-color: rgb(133, 44, 216);
+	border: 0;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.quiz {
+	/* display: flex; */
+	width: 100%;
+}
+
+.quiz .Quiz-Options {
+	padding: 10px;
+}
+
+.quiz .Quiz-Options .button {
+	padding: 10px;
+	width: 100%;
+	background-color: white;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.quiz .Quiz-Options .button:hover {
+	background-color: #33b042;
+	cursor: pointer;
+}
+
+.quiz .Quiz-Options .button:active {
+	background-color: #0b9c1c;
+}
+
+.quiz .active .button {
+	background-color: rgb(22, 188, 22);
+}

@@ -1,0 +1,25 @@
+.quiz-result {
+	/* display: flex; */
+	width: 100%;
+}
+
+.quiz-result .Quiz-Options {
+	padding: 10px;
+}
+
+.quiz-result .Quiz-Options .button {
+	padding: 10px;
+	width: 100%;
+	background-color: white;
+	border: 0px;
+	border-radius: 5px;
+}
+
+
+.quiz-result .active .button {
+	background-color: rgb(255, 60, 60);
+}
+
+.quiz-result .correct .button {
+	background-color: rgb(67, 255, 67);
+}

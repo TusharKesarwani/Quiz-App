@@ -1,0 +1,65 @@
+.home-page {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.home-page .home-container {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 5px black;
+}
+
+.home-page .home-container .home-header {
+  padding: 10px;
+}
+
+.home-page .home-container .home-main {
+  padding: 10px 0px 10px 0px;
+  border: solid black;
+  border-width: 1px 0px 0px 0px;
+  margin: 15px;
+}
+
+.home-page .home-container .home-main form {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page .home-container .home-main form label {
+  padding: 10px;
+}
+
+.home-page .home-container .home-main form label input {
+  margin: 10px;
+  padding: 5px;
+  font-size: medium;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.home-page .home-container .home-main form hr {
+  /* border: 10px 0px 0px 0px solid black; */
+  margin: 10px 0px;
+  width: 100%;
+  border: solid black;
+  border-width: 1px 0px 0px 0px;
+}
+
+.home-page .home-container .home-main form button {
+  margin: 15px 0px 0px 0px;
+  padding: 10px 0px;
+  font-size: large;
+  background-color: rgb(133, 44, 216);
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}

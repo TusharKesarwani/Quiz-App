@@ -1,0 +1,13 @@
+.navbar {
+	background-color: rgb(133, 44, 216);
+	padding: 20px;
+	color: white;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.navbar a {
+	all: unset;
+	cursor: pointer;
+}
