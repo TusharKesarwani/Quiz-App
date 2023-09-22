@@ -23,7 +23,8 @@ const ResultPage = () => {
 
 	useEffect(() => {
 		setScore(calculateScore());
-	}, [calculateScore]);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
 	return (
 		<div className="result-page">

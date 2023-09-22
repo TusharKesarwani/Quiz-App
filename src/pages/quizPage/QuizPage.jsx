@@ -35,7 +35,8 @@ const QuizPage = () => {
 		setTimeout(() => {
 			navigate("/result", { replace: true });
 		}, 1800 * 1000);
-	}, [getQuizes,navigate]);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
 	return (
 		<div className="quiz-page">
