@@ -23,7 +23,7 @@ const ResultPage = () => {
 
 	useEffect(() => {
 		setScore(calculateScore());
-	}, []);
+	}, [calculateScore]);
 
 	return (
 		<div className="result-page">
