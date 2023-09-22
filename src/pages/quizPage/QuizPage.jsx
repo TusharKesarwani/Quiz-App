@@ -35,7 +35,7 @@ const QuizPage = () => {
 		setTimeout(() => {
 			navigate("/result", { replace: true });
 		}, 1800 * 1000);
-	}, []);
+	}, [getQuizes,navigate]);
 
 	return (
 		<div className="quiz-page">
