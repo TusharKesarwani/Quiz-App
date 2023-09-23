@@ -63,3 +63,8 @@
   color: white;
   cursor: pointer;
 }
+
+.home-page .home-container .home-main form button:disabled {
+  background-color: cadetblue;
+  cursor: default;
+}

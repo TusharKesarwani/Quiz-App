@@ -34,7 +34,7 @@ const HomePage = () => {
 							<input type="email" name="email" value={state.user.email} onChange={e => dispatch({ type: "SET_EMAIL", payload: e.target.value })} />
 						</label>
 						<hr/>
-						<button type="submit">Continue</button>
+						<button type="submit" disabled={state.user.name === "" || state.user.email === ""}>Continue</button>
 					</form>
 				</div>
 			</div>
